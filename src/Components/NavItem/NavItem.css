@@ -1,0 +1,7 @@
+.nav-item:hover {
+  background-color: var(--color-primary);
+}
+
+.nav-item {
+  color: var(--color-light);
+}

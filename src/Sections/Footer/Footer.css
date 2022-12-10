@@ -1,0 +1,19 @@
+footer {
+  display: block;
+  color: var(--color-light);
+}
+footer p {
+  text-align: center;
+  padding: 30px 0px;
+  color: #fff;
+  font-weight: 300;
+}
+
+footer p a {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+footer p a:hover {
+  color: #ec6090;
+}
