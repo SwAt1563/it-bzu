@@ -24,3 +24,7 @@
 .hover-white:hover {
   color: var(--color-primary);
 }
+
+.logo {
+  inline-size: 3rem;
+}

@@ -1,0 +1,17 @@
+.offer .photo img {
+  width: 400px;
+  border-radius: 50%;
+  border: 5px solid var(--color-primary);
+}
+
+.site a {
+  color: var(--color-primary);
+}
+
+.status a:hover {
+  cursor: pointer;
+}
+
+.offer .date:hover {
+  color: var(--color-primary);
+}

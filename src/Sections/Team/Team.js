@@ -10,7 +10,9 @@ const Team = () => {
         photo={person.photo}
         status={person.status}
         about={person.about}
+        contact={person.contact}
         index={index}
+        
       />
     );
   });
@@ -19,10 +21,8 @@ const Team = () => {
     <>
       <div className="team p-5">
         <div className="container">
-          <h4 className="text-center">
-            مرشحو نادي الهندسة الكهربائية وهندسة الحاسوب 2022 \ 2023
-          </h4>
-          <hr />
+          <h2 className="title text-center mb-5">من نحن </h2>
+          <hr className="mb-5" />
           <div className="members">{members}</div>
         </div>
       </div>

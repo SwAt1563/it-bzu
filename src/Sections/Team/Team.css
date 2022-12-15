@@ -1,3 +1,6 @@
 .team {
   background-color: var(--color-dark);
 }
+.team .title {
+  color: var(--color-primary);
+}

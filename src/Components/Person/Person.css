@@ -1,9 +1,13 @@
-.photo img {
+.person img {
   width: 400px;
-  border-radius: 15%;
+  border-radius: 5%;
   border: 5px solid var(--color-primary);
 }
 
-.status {
+.link {
   color: var(--color-primary);
+}
+
+.link:hover {
+  color: var(--color-light);
 }

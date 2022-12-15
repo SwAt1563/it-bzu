@@ -7,17 +7,18 @@ import "./App.css";
 import { Container } from "./Components/index";
 import { Header, Footer } from "./Sections/index";
 
-import { Home, Students } from "./Pages/index";
+import { Home, Offers, About_us } from "./Pages/index";
 
 const App = () => {
   return (
     <>
-      <Router>
+      <Router basename="/it-bzu">
         <Header />
         <Container>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/students" element={<Students />} />
+            <Route path="/offers" element={<Offers />} />
+            <Route path="/about_us" element={<About_us />} />
           </Routes>
         </Container>
         <Footer />

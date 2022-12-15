@@ -3,6 +3,8 @@ import "./Header.css";
 import { NavItem } from "../../Components/index";
 import { FaAlignJustify } from "react-icons/fa";
 
+import logo from "../../assets/logo.png";
+
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -10,6 +12,12 @@ const Header = () => {
     <>
       <nav className="navbar navbar-expand-lg main-navbar">
         <div className="container">
+          <Link to="/">
+            <div className="logo">
+              <img className="img-fluid" src={logo} alt="IT_Logo" />
+            </div>
+          </Link>
+
           <Link className="navbar-brand hover-white" to="/">
             طلاب تكنولوجيا المعلومات
           </Link>
@@ -30,7 +38,8 @@ const Header = () => {
               <NavItem link="/" active="true">
                 الصفحة الرئيسية
               </NavItem>
-              <NavItem link="/students">الطلاب</NavItem>
+              <NavItem link="/offers">العروضات</NavItem>
+              <NavItem link="/about_us">من نحن</NavItem>
             </ul>
           </div>
         </div>

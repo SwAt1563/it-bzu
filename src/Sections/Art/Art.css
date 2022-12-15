@@ -1,3 +1,19 @@
-.header {
+.art {
+}
+.art .title {
   color: var(--color-primary);
+}
+
+.art .logo {
+  inline-size: 20rem;
+}
+
+.offers-btn,
+.register-btn {
+  background-color: var(--color-primary);
+}
+
+.offers-btn:hover,
+.register-btn:hover {
+  background-color: var(--color-light);
 }
