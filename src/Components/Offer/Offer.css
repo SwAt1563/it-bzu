@@ -11,6 +11,9 @@
 .offer .status a:hover {
   cursor: pointer;
 }
+.offer .title .name {
+  color: var(--color-light);
+}
 
 .offer .date {
   color: var(--color-secondary);
@@ -28,4 +31,49 @@
   border-radius: 30px;
 }
 
+.offer details {
+  margin: 0 auto;
+  background: #282828;
 
+  box-shadow: 0 0.1rem 1rem -0.5rem var(--color-dark);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.offer summary {
+  padding: 1rem;
+  display: block;
+  background: var(--color-dark);
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.offer summary:before {
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: 0.2rem 50%;
+  transition: 0.25s transform ease;
+}
+
+.offer details summary::-webkit-details-marker {
+  display: none;
+}
+
+.offer details .s-up {
+  display: none;
+}
+.offer details[open] .s-up {
+  display: block;
+}
+.offer details .s-down {
+  display: block;
+}
+.offer details[open] .s-down {
+  display: none;
+}
