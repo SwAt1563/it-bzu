@@ -4,14 +4,18 @@
   border: 5px solid var(--color-primary);
 }
 
-.site a {
+.offer .site a {
   color: var(--color-primary);
 }
 
-.status a:hover {
+.offer .status a:hover {
   cursor: pointer;
 }
 
-.offer .date:hover {
-  color: var(--color-primary);
+.offer .date {
+  color: var(--color-secondary);
+}
+
+.offer ul {
+  list-style-type: disc;
 }

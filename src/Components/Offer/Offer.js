@@ -1,9 +1,10 @@
 import "./Offer.css";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
+import { FaFacebook } from "react-icons/fa";
 
 const Person = (props) => {
-  const side = props.index % 2 !== 1 ? "row flex-row-reverse bg-2" : "row";
+  const side = props.index % 2 === 1 ? "row flex-row-reverse bg-2" : "row";
   return (
     <>
       <Fade bottom>
@@ -14,18 +15,19 @@ const Person = (props) => {
                 <img className="img-fluid " src={props.logo} alt={props.name} />
               </div>
               <div className="content col-lg-8 col-sm-12 ">
-                <h2 className="name mb-2">{props.name}</h2>
-                <h6 className="site ">
-                  <a className="" href={props.site}>
-                    الصفحة
+                <h2 className="name mb-2">
+                  {props.name}
+                  <a className="site fs-3 me-2" href={props.site}>
+                    <FaFacebook />
                   </a>
-                </h6>
+                </h2>
+
                 <div className="date mb-3">
                   العرض ساري من {props.date_from} الى {props.date_to}
                 </div>
                 <div className="time">اوقات الدوام: {props.time}</div>
                 <div className="number">رقم المحل: {props.number}</div>
-                <div className="position"> العنوان: {props.position}</div>
+                <div className="position mb-5"> العنوان: {props.position}</div>
 
                 <p className="about">{props.descripition}</p>
                 <ul className="offers ">

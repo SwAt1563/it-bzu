@@ -38,6 +38,7 @@ const Art = () => {
               <img className="img-fluid" src={it_card} alt="IT_Logo" />
             </div>
           </div>
+          
         </div>
       </div>
     </>
