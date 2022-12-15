@@ -7,7 +7,7 @@ import "./App.css";
 import { Container } from "./Components/index";
 import { Header, Footer } from "./Sections/index";
 
-import { Home, Offers, About_us } from "./Pages/index";
+import { Home, Offers, About_us, Google_Form } from "./Pages/index";
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/offers" element={<Offers />} />
             <Route path="/about_us" element={<About_us />} />
+            <Route path="/card_registration" element={<Google_Form />} />
           </Routes>
         </Container>
         <Footer />

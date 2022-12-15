@@ -28,9 +28,7 @@ const Art = () => {
                 <Link to="/offers">العروضات</Link>
               </div>
               <div className="register-btn btn">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHvH_QsP92_2I2C82gEkrOjzMHLnWIQCp6VzqkKGcMOoDSTw/viewform?usp=sf_link">
-                  التسجيل
-                </a>
+                <Link to="/card_registration">التسجيل</Link>
               </div>
             </div>
 
@@ -38,7 +36,6 @@ const Art = () => {
               <img className="img-fluid" src={it_card} alt="IT_Logo" />
             </div>
           </div>
-          
         </div>
       </div>
     </>

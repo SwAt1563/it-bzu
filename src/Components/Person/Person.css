@@ -9,5 +9,5 @@
 }
 
 .link:hover {
-  color: var(--color-light);
+  color: var(--color-primary-hover);
 }

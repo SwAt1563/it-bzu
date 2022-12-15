@@ -19,3 +19,13 @@
 .offer ul {
   list-style-type: disc;
 }
+
+.offer .bg-2 {
+  background-color: var(--color-dark);
+}
+
+.offer .row {
+  border-radius: 30px;
+}
+
+

@@ -3,15 +3,18 @@ import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 
-const Person = (props) => {
-  const side = props.index % 2 === 1 ? "row flex-row-reverse bg-2" : "row";
+const Offer = (props) => {
+  const side =
+    props.index % 2 === 1
+      ? "row flex-row-reverse bg-2 p-4 "
+      : "row flex-row-reverse bg-2 p-4 ";
   return (
     <>
       <Fade bottom>
         <div className="offer mb-5">
           <div className="container">
             <div className={side}>
-              <div className="photo col-lg-4 col-sm-12 text-center mb-3">
+              <div className="photo d-flex align-items-center justify-content-center col-lg-4 col-sm-12  mb-3">
                 <img className="img-fluid " src={props.logo} alt={props.name} />
               </div>
               <div className="content col-lg-8 col-sm-12 ">
@@ -44,4 +47,4 @@ const Person = (props) => {
   );
 };
 
-export default Person;
+export default Offer;

@@ -12,7 +12,6 @@ const Team = () => {
         about={person.about}
         contact={person.contact}
         index={index}
-        
       />
     );
   });
