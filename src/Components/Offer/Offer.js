@@ -17,20 +17,28 @@ const Offer = (props) => {
               <summary>
                 <div className="smry row">
                   <div className="title col-10">
-                    <h2 className="name mb-2">
+                    <h2 className="name mb-2 ">
                       {props.name}
-                      <a className="site fs-3 me-3" href={props.site}>
+                      <a
+                        className="site fs-3 me-3"
+                        href={props.site}
+                        target="_blank"
+                      >
                         <FaFacebook />
                       </a>
                     </h2>
-                    <div className="date mb-3">
+                    <div className="date mb-3 ">
                       العرض ساري من {props.date_from} الى {props.date_to}
                     </div>
                   </div>
 
                   <div className="scroll-icon fs-1  col-2 d-flex align-items-center justify-content-center">
-                    <div className="s-down"><FaCaretDown /></div>
-                    <div className="s-up"><FaCaretUp/></div>
+                    <div className="s-down">
+                      <FaCaretDown />
+                    </div>
+                    <div className="s-up">
+                      <FaCaretUp />
+                    </div>
                   </div>
                 </div>
               </summary>

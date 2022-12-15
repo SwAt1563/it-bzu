@@ -20,7 +20,7 @@ const Person = (props) => {
               <div className="content col-lg-8 col-sm-12 text-center">
                 <h2 className="name mb-2">{props.name}</h2>
                 <h6 className="status mb-5">
-                  <a className="link" href={props.contact}>
+                  <a className="link" href={props.contact} target="_blank">
                     للتواصل
                   </a>
                 </h6>

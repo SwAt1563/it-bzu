@@ -8,7 +8,7 @@ const Art = () => {
     <>
       <div className="art text-center text-lg-end">
         <div className="container">
-          <div className="row mt-5 ">
+          <div className="row mt-5  d-flex align-items-center justify-content-center">
             <div className="content col-sm-12 col-lg-8">
               <h3 className="title mb-4">سارعوا في اخذ البطاقات</h3>
               <div className="descripition mb-4 ">
@@ -32,8 +32,8 @@ const Art = () => {
               </div>
             </div>
 
-            <div className="logo col-sm-12 col-lg-4 ">
-              <img className="img-fluid" src={it_card} alt="IT_Logo" />
+            <div className="logo col-sm-12 col-lg-4  ">
+              <img className="img-fluid " src={it_card} alt="IT_Logo" />
             </div>
           </div>
         </div>

@@ -77,3 +77,13 @@
 .offer details[open] .s-down {
   display: none;
 }
+
+/* Small devices (landscape phones, 544px and up) */
+@media (max-width: 450px) {
+  .offer .title .name {
+    font-size: 1.3rem;
+  }
+  .offer .title .date {
+    font-size: 0.8rem;
+  }
+}

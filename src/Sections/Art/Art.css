@@ -10,10 +10,12 @@
 
 .offers-btn,
 .register-btn {
+  color: var(--color-light);
   background-color: var(--color-primary);
 }
 
 .offers-btn:hover,
 .register-btn:hover {
+  color: var(--color-primary);
   background-color: var(--color-light);
 }

@@ -1,0 +1,6 @@
+@media (max-width: 700px) {
+  .google-form iframe {
+    width: 300px;
+    height: 3000px;
+  }
+}
