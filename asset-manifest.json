@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/it-bzu/static/css/main.591fb899.css",
-    "main.js": "/it-bzu/static/js/main.0be0ba95.js",
-    "static/media/bb.jpg": "/it-bzu/static/media/bb.5bcc8bc6c2c4f88af591.jpg",
+    "main.css": "/it-bzu/static/css/main.6810d8a2.css",
+    "main.js": "/it-bzu/static/js/main.f8649b1c.js",
+    "static/media/it_card.png": "/it-bzu/static/media/it_card.263171815bf393324e27.png",
     "static/media/qo.jpg": "/it-bzu/static/media/qo.194022b9a9955d25045a.jpg",
-    "static/media/sk.jpg": "/it-bzu/static/media/sk.a3ab2cde4f4b441af772.jpg",
-    "static/media/sw.jpg": "/it-bzu/static/media/sw.61418fb1b3fd88b84458.jpg",
-    "static/media/hs.jpg": "/it-bzu/static/media/hs.7841ba78c17b3f0cafc9.jpg",
+    "static/media/easy_life.jpg": "/it-bzu/static/media/easy_life.ca6c0e6278aa0fc0ec59.jpg",
     "index.html": "/it-bzu/index.html",
-    "main.591fb899.css.map": "/it-bzu/static/css/main.591fb899.css.map",
-    "main.0be0ba95.js.map": "/it-bzu/static/js/main.0be0ba95.js.map"
+    "main.6810d8a2.css.map": "/it-bzu/static/css/main.6810d8a2.css.map",
+    "main.f8649b1c.js.map": "/it-bzu/static/js/main.f8649b1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.591fb899.css",
-    "static/js/main.0be0ba95.js"
+    "static/css/main.6810d8a2.css",
+    "static/js/main.f8649b1c.js"
   ]
 }
