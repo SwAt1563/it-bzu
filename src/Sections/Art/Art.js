@@ -38,7 +38,7 @@ const Art = () => {
             </div>
           </div>
           <hr className="mt-5" />
-          <div className="row mt-5  d-flex align-items-center justify-content-center">
+          <div className="row mt-5  d-flex  justify-content-center">
             <div className="content col-sm-12 col-lg-8">
               <h3 className="title mb-4">
                 عرض ولا احلى انتظروا بداية السنة الجديدة
