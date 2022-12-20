@@ -2,6 +2,7 @@ import "./Art.css";
 
 import { Link } from "react-router-dom";
 import it_card from "../../assets/it_card.png";
+import break_icon from "../../assets/offers_icons/break.jpg";
 
 const Art = () => {
   return (
@@ -34,6 +35,26 @@ const Art = () => {
 
             <div className="logo col-sm-12 col-lg-4  ">
               <img className="img-fluid " src={it_card} alt="IT_Logo" />
+            </div>
+          </div>
+          <hr className="mt-5" />
+          <div className="row mt-5  d-flex align-items-center justify-content-center">
+            <div className="content col-sm-12 col-lg-8">
+              <h3 className="title mb-4">
+                عرض ولا احلى انتظروا بداية السنة الجديدة
+              </h3>
+              <div className="descripition mb-4 ">
+                بمناسبة فترة الامتحانات النصفية وفرنا لكم خصومات على غرف VIPs
+                للدراسة في مدينة بيرزيت بالاضافة الى خصومات على جميع انواع
+                الاغذية والمشروبات والاراجيل، ولا ننسى المعاناة التي يواجهها
+                طلاب السكنات في طلب الوجبات في الفترة المسائية بحيث لا تتوفر
+                محلات من اجل توصيل وجبات منزلية صحية، لذلك قمنا بالترتيب مع احدى
+                المطاعم على توفير هذه الوجبات مع توصيل مجاني بالاضافة الى خصومات
+                على اسعارها ... ما عليكم الا انتظار بداية السنة الجديدة.
+              </div>
+            </div>
+            <div className="logo col-sm-12 col-lg-4  ">
+              <img className="img-fluid " src={break_icon} alt="IT_Logo" />
             </div>
           </div>
         </div>
