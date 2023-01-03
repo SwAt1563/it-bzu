@@ -13,11 +13,13 @@ const Team = () => {
         date_from={offer.date_from}
         date_to={offer.date_to}
         descripition={offer.descripition}
-        site={offer.site}
+        face={offer.face}
+        inst={offer?.inst}
         number={offer.number}
         position={offer.position}
         time={offer.time}
         offers={offer.offers}
+        imgs={offer?.imgs}
         
       />
     );

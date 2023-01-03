@@ -1,13 +1,19 @@
 import "./Offer.css";
 import Fade from "react-reveal/Fade";
-import { Link } from "react-router-dom";
-import { FaFacebook, FaCaretDown, FaCaretUp } from "react-icons/fa";
+// import { Link } from "react-router-dom";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaCaretDown,
+  FaCaretUp,
+} from "react-icons/fa";
 
 const Offer = (props) => {
   const side =
     props.index % 2 === 1
       ? "row flex-row-reverse bg-2 p-4 "
       : "row flex-row-reverse bg-2 p-4 ";
+
   return (
     <>
       <Fade bottom>
@@ -21,11 +27,23 @@ const Offer = (props) => {
                       {props.name}
                       <a
                         className="site fs-3 me-3"
-                        href={props.site}
+                        href={props.face}
                         target="_blank"
                       >
                         <FaFacebook />
                       </a>
+
+                      {props.inst ? (
+                        <a
+                          className="site fs-3 me-3"
+                          href={props.inst}
+                          target="_blank"
+                        >
+                          <FaInstagram />
+                        </a>
+                      ) : (
+                        <></>
+                      )}
                     </h2>
                     <div className="date mb-3 ">
                       العرض ساري من {props.date_from} الى {props.date_to}
@@ -44,7 +62,7 @@ const Offer = (props) => {
               </summary>
 
               <div className={side}>
-                <div className="photo d-flex align-items-center justify-content-center col-lg-4 col-sm-12  mb-3">
+                <div className="photo col-lg-4 col-sm-12 d-flex align-items-center justify-content-center mb-3">
                   <img
                     className="img-fluid "
                     src={props.logo}
@@ -59,11 +77,25 @@ const Offer = (props) => {
                   <p className="about">{props.descripition}</p>
                   <ul className="offers ">
                     {props.offers.map((offer) => (
-                      <li>{offer}</li>
+                      <li className="mt-2">{offer}</li>
                     ))}
                   </ul>
                 </div>
               </div>
+
+              {props.imgs ? (
+                <div className="assets mt-3 p-5">
+                  <div className=" row ">
+                    {props?.imgs.map((asset) => (
+                      <div className="asset mb-3 col-lg-6 col-sm-12 d-flex align-items-center justify-content-center">
+                        <img src={asset} alt="" className="img-fluid" />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <></>
+              )}
             </details>
           </div>
         </div>
