@@ -1,21 +1,26 @@
 {
   "files": {
     "main.css": "/it-bzu/static/css/main.9cd5f933.css",
-    "main.js": "/it-bzu/static/js/main.cf4ec38e.js",
+    "main.js": "/it-bzu/static/js/main.bff16722.js",
     "static/media/it_card.png": "/it-bzu/static/media/it_card.263171815bf393324e27.png",
     "static/media/qo.jpg": "/it-bzu/static/media/qo.194022b9a9955d25045a.jpg",
+    "static/media/2.jpeg": "/it-bzu/static/media/2.d5f343d40ac71cb94528.jpeg",
+    "static/media/1.jpeg": "/it-bzu/static/media/1.4464cc8dff395267c0dc.jpeg",
+    "static/media/4.jpeg": "/it-bzu/static/media/4.8fbd259e4803eb03d03d.jpeg",
+    "static/media/3.jpeg": "/it-bzu/static/media/3.f92717c9507e8c19db14.jpeg",
     "static/media/1.jpg": "/it-bzu/static/media/1.890445664df770c5db36.jpg",
     "static/media/4.jpg": "/it-bzu/static/media/4.44cb94ba3dfe94d6ddf9.jpg",
     "static/media/3.jpg": "/it-bzu/static/media/3.651de27ff24b0e0c5555.jpg",
     "static/media/2.jpg": "/it-bzu/static/media/2.d4953bc0557e449d87af.jpg",
+    "static/media/gift.jpg": "/it-bzu/static/media/gift.50fbec688c374aa7d416.jpg",
     "static/media/break.jpg": "/it-bzu/static/media/break.1b1e981dea84b3fa5e6c.jpg",
     "static/media/easy_life.jpg": "/it-bzu/static/media/easy_life.ca6c0e6278aa0fc0ec59.jpg",
     "index.html": "/it-bzu/index.html",
     "main.9cd5f933.css.map": "/it-bzu/static/css/main.9cd5f933.css.map",
-    "main.cf4ec38e.js.map": "/it-bzu/static/js/main.cf4ec38e.js.map"
+    "main.bff16722.js.map": "/it-bzu/static/js/main.bff16722.js.map"
   },
   "entrypoints": [
     "static/css/main.9cd5f933.css",
-    "static/js/main.cf4ec38e.js"
+    "static/js/main.bff16722.js"
   ]
 }
