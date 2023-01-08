@@ -95,6 +95,6 @@
   border-radius: 15px;
 }
 
-.offer details .override {
-  z-index: 10;
+.offer details summary a * {
+  pointer-events: none;
 }
