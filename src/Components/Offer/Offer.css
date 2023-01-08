@@ -94,3 +94,7 @@
   border: solid 5px var(--color-light);
   border-radius: 15px;
 }
+
+.offer details .override {
+  z-index: 10;
+}

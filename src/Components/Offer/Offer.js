@@ -26,7 +26,7 @@ const Offer = (props) => {
                     <h2 className="name mb-2 ">
                       {props.name}
                       <a
-                        className="site fs-3 me-3"
+                        className="site fs-3 me-3 override"
                         href={props.face}
                         target="_blank"
                       >
@@ -35,7 +35,7 @@ const Offer = (props) => {
 
                       {props.inst ? (
                         <a
-                          className="site fs-3 me-3"
+                          className="site fs-3 me-3 override"
                           href={props.inst}
                           target="_blank"
                         >
