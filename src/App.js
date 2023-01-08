@@ -19,7 +19,18 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/offers" element={<Offers />} />
             <Route path="/about_us" element={<About_us />} />
-            <Route path="/card_registration" element={<Google_Form />} />
+            <Route
+              path="/card_registration"
+              element={
+                <Google_Form src="https://docs.google.com/forms/d/e/1FAIpQLSeHvH_QsP92_2I2C82gEkrOjzMHLnWIQCp6VzqkKGcMOoDSTw/viewform?embedded=true" />
+              }
+            />
+            <Route
+              path="/asal_registration"
+              element={
+                <Google_Form src="https://docs.google.com/forms/d/e/1FAIpQLScXV4WL8KicSeRK9d326iifiCPZUi2_N-Fx1uk-Zx6QSRttuw/viewform?embedded=true" />
+              }
+            />
           </Routes>
         </Container>
         <Footer />
