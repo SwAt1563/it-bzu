@@ -26,7 +26,7 @@ const Art = () => {
                 رمزي لتوفير بطاقة جديدة لك.
               </div>
 
-              <div className="register-btn btn">
+              <div className="register-btn btn mb-3">
                 <Link to="/card_registration">التسجيل</Link>
               </div>
             </div>
@@ -50,7 +50,7 @@ const Art = () => {
                 الأجابة على أسالتك من مختصين في مجال سوق العمل
               </div>
 
-              <div className="register-btn btn">
+              <div className="register-btn btn mb-4">
                 <Link to="/asal_registration">التسجيل</Link>
               </div>
             </div>
