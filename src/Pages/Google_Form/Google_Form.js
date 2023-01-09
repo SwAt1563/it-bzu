@@ -10,7 +10,7 @@ const Google_Form = (props) => {
               scrolling="no"
               src={props.src}
               width="640"
-              height="2000"
+              height="3000"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
