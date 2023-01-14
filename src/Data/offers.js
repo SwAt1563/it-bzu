@@ -17,6 +17,10 @@ import stella_1 from "../assets/offers_icons/stella/1.jpg";
 import stella_2 from "../assets/offers_icons/stella/2.jpg";
 import stella_3 from "../assets/offers_icons/stella/3.jpg";
 import stella_4 from "../assets/offers_icons/stella/4.jpg";
+import stella_5 from "../assets/offers_icons/stella/5.jpg";
+import stella_6 from "../assets/offers_icons/stella/6.jpg";
+import stella_7 from "../assets/offers_icons/stella/7.jpg";
+import stella_8 from "../assets/offers_icons/stella/8.jpg";
 
 const offers = [
   {
@@ -105,7 +109,16 @@ const offers = [
     number: "0599277470",
     position: "اونلاين",
     time: "متوفر بأي وقت",
-    imgs: [stella_1, stella_2, stella_3, stella_4],
+    imgs: [
+      stella_1,
+      stella_2,
+      stella_3,
+      stella_4,
+      stella_5,
+      stella_6,
+      stella_7,
+      stella_8,
+    ],
   },
 ];
 
