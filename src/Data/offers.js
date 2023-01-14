@@ -12,6 +12,12 @@ import hdyte_2 from "../assets/offers_icons/hdyte/2.jpeg";
 import hdyte_3 from "../assets/offers_icons/hdyte/3.jpeg";
 import hdyte_4 from "../assets/offers_icons/hdyte/4.jpeg";
 
+import stella_logo from "../assets/offers_icons/stella/stella_logo.jpg";
+import stella_1 from "../assets/offers_icons/stella/1.jpg";
+import stella_2 from "../assets/offers_icons/stella/2.jpg";
+import stella_3 from "../assets/offers_icons/stella/3.jpg";
+import stella_4 from "../assets/offers_icons/stella/4.jpg";
+
 const offers = [
   {
     key: 1,
@@ -77,6 +83,29 @@ const offers = [
       "بيرزيت - الشارع الرئيسي - مقابل محطة بيرزيت للمحروقات - بجانب برج المدخن",
     time: "10AM-9PM",
     imgs: [hdyte_1, hdyte_2, hdyte_3, hdyte_4],
+  },
+  {
+    key: 4,
+    name: "ستيلا جولد للاكسسوارات",
+    date_from: "15/1/2023",
+    date_to: "-",
+    descripition: "العروضات المتوفرة من قبل ستيلا جولد",
+    offers: [
+      "اي سنسال ناعم موجود بالصور بس ب 30 شيقل واللون مكفول",
+      "اي اسوارة محجرة بالصور فضي و ذهبي ب 35 شيقل (باستثناء اسوارة الفيرزاتشي) لونهم مكفول مدى الحياة",
+      "خصم 20% على اي بكج مصحف متوفر منهم شكلين وكل شكل خمسة الوان موجودة النشكيلة كاملة على الصفحة",
+      "خصم 20% على اي بكج هدايا وهدية فورية عند شراء اي بكج ",
+      "خصم 20% على اي ساعة رجالي او ستاتي",
+      "عند شرائك باي قيمة بتدخل السحب على ساعة رجالي وساعة ستاتي",
+      "متوفر توصيل لكل مناطق الضفة والداخل و مجاني للجامعة",
+    ],
+    logo: stella_logo,
+    face: "https://www.facebook.com/goldstella66?mibextid=ZbWKwL",
+    inst: "https://instagram.com/gold_stella66?igshid=YmMyMTA2M2Y=",
+    number: "0599277470",
+    position: "اونلاين",
+    time: "متوفر بأي وقت",
+    imgs: [stella_1, stella_2, stella_3, stella_4],
   },
 ];
 
