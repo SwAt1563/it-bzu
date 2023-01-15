@@ -39,6 +39,7 @@ const Header = () => {
                 الصفحة الرئيسية
               </NavItem>
               <NavItem link="/offers">العروضات</NavItem>
+              <NavItem link="/project_groups">المشاريع</NavItem>
               <NavItem link="/about_us">من نحن</NavItem>
             </ul>
           </div>

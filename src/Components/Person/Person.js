@@ -1,6 +1,6 @@
 import "./Person.css";
 import Fade from "react-reveal/Fade";
-import { Link } from "react-router-dom";
+
 
 const Person = (props) => {
   const side = props.index % 2 === 1 ? "row flex-row-reverse bg-2" : "row";

@@ -56,7 +56,30 @@ const Art = () => {
             </div>
 
             <div className="logo col-sm-12 col-lg-4  ">
-              <img className="img-fluid rounded" src={asal} alt="IT_Logo" />
+              <img className="img-fluid rounded" src={asal} alt="ASAL Logo" />
+            </div>
+          </div>
+
+          <hr className="mt-5" />
+
+          <div className="row mt-5  d-flex align-items-center justify-content-center">
+            <div className="content col-sm-12 col-lg-11">
+              <h3 className="title mb-4">
+                من الان قد أصبح من السهل إيجاد جروب لمشروعك
+              </h3>
+              <div className="descripition mb-4 ">
+                هذا الميزة خاصة للطلاب الذين يصعب عليهم ايجاد جروبات للمشاريع
+                الخاصة بهم، طريقة الاستعمال سهلة جداً ان اردت ان يعرف الاخرون
+                انك تريد جروب لمشروع ما، ما عليك الا ادخال رمز المادة والتفاصيل
+                الازمة للمشروع والمعلومات الازمة للتواصل معك، وفي حالة كان هنالك
+                اشخاص للمادة التي تريدها ما عليك الا ان تدخل رمز المادة في البحث
+                وسوف يعرض لك الأشخاص الذين يبحثون عن جروبات للمادة التي اخترتها
+                ان وجد.
+              </div>
+
+              <div className="register-btn btn mb-4">
+                <Link to="/project_groups">اريد البحث عن جروب</Link>
+              </div>
             </div>
           </div>
         </div>

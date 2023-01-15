@@ -1,0 +1,14 @@
+.project_groups .title {
+  color: var(--color-primary);
+}
+
+.project_groups .done {
+  color: var(--color-light);
+}
+
+.project_groups .done a {
+  color: var(--color-primary);
+}
+.project_groups .hidden {
+  display: none;
+}

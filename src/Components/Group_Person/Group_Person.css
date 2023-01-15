@@ -1,0 +1,105 @@
+.group_person {
+  color: var(--color-light);
+}
+
+.group_person .photo img {
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid var(--color-primary);
+  }
+  
+  .group_person .site a {
+    color: var(--color-primary);
+  }
+  
+  .group_person .status a:hover {
+    cursor: pointer;
+  }
+  .group_person .title .name {
+    color: var(--color-light);
+  }
+  
+  .group_person .date {
+    color: var(--color-secondary);
+  }
+  
+  .group_person ul {
+    list-style-type: disc;
+  }
+  
+  .group_person .bg-2 {
+    background-color: var(--color-dark);
+  }
+  
+  .group_person .row {
+    border-radius: 30px;
+  }
+  
+  .group_person details {
+    margin: 0 auto;
+    background: #282828;
+  
+    box-shadow: 0 0.1rem 1rem -0.5rem var(--color-dark);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .group_person summary {
+    padding: 1rem;
+    display: block;
+    background: var(--color-dark);
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .group_person summary:before {
+    border-width: 0.4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: 0.2rem 50%;
+    transition: 0.25s transform ease;
+  }
+  
+  .group_person details summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  .group_person details .s-up {
+    display: none;
+  }
+  .group_person details[open] .s-up {
+    display: block;
+  }
+  .group_person details .s-down {
+    display: block;
+  }
+  .group_person details[open] .s-down {
+    display: none;
+  }
+  
+  /* Small devices (landscape phones, 544px and up) */
+  @media (max-width: 450px) {
+    .group_person .title .name {
+      font-size: 1.3rem;
+    }
+    .group_person .title .date {
+      font-size: 0.8rem;
+    }
+  }
+  
+  .group_person details .assets .asset img {
+    width: 600px;
+    height: 400px;
+    border: solid 5px var(--color-light);
+    border-radius: 15px;
+  }
+  
+  .group_person details summary a * {
+    pointer-events: none;
+  }
+  

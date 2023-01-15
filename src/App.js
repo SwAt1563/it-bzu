@@ -7,15 +7,22 @@ import "./App.css";
 import { Container } from "./Components/index";
 import { Header, Footer } from "./Sections/index";
 
-import { Home, Offers, About_us, Google_Form } from "./Pages/index";
 
-// npm install react-ga --save --force
-// import ReactGA from 'react-ga';
 
-// function initializeReactGA() {
-//   ReactGA.initialize('UA-123791717-1');
-//   ReactGA.pageview('/https://swat1563.github.io/it-bzu');
-// }
+import {
+  Home,
+  Offers,
+  About_us,
+  Google_Form,
+  Project_Groups,
+} from "./Pages/index";
+
+import { app } from "./firebase";
+import { getDatabase } from "firebase/database";
+
+
+
+const db = getDatabase(app);
 
 const App = () => {
   return (
@@ -27,6 +34,10 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/offers" element={<Offers />} />
             <Route path="/about_us" element={<About_us />} />
+            <Route
+              path="/project_groups"
+              element={<Project_Groups database={db} />}
+            />
             <Route
               path="/card_registration"
               element={
