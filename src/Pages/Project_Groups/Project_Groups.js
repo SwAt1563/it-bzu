@@ -128,6 +128,7 @@ const Project_Groups = (props) => {
                   className="form-control"
                   id="course_id"
                   placeholder="رمز المادة"
+                  required
                 />
               </div>
               <div className=" col-md-6 col-lg-6 mb-2 ">
@@ -137,6 +138,7 @@ const Project_Groups = (props) => {
                   className="form-control"
                   id="name"
                   placeholder=" ادخل اسمك"
+                  required
                 />
               </div>
               <div className=" col-md-6 col-lg-6 mb-2 ">
@@ -146,12 +148,13 @@ const Project_Groups = (props) => {
                   className="form-control"
                   id="facebook"
                   placeholder=" الفيس بوك "
+                  required
                 />
               </div>
               <div className=" col-md-6 col-lg-6 mb-2 ">
                 <label for="email"> الايميل الخاص بك </label>
                 <input
-                  type="email"
+                  type="text"
                   className="form-control"
                   id="email"
                   placeholder=" البريد الالكتروني   "
