@@ -85,7 +85,7 @@ const Offer = (props) => {
               </div>
 
               {props.imgs ? <Offer_Images imgs={props.imgs} /> : <></>}
-              {props.video ? <Offer_Video video={props.video} /> : <></>}
+              {props.video ? <Offer_Video video={props.video} poster={props.poster} /> : <></>}
             </details>
           </div>
         </div>

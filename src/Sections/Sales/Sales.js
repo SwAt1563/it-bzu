@@ -21,6 +21,7 @@ const Team = () => {
         offers={offer.offers}
         imgs={offer?.imgs}
         video={offer?.video}
+        poster={offer?.poster}
         
       />
     );

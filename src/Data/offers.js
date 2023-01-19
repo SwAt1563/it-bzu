@@ -22,7 +22,6 @@ import stella_6 from "../assets/offers_icons/stella/6.jpg";
 import stella_7 from "../assets/offers_icons/stella/7.jpg";
 import stella_8 from "../assets/offers_icons/stella/8.jpg";
 
-
 import macchiato_logo from "../assets/offers_icons/macchiato/macchiato_logo.jpg";
 import macchiato_1 from "../assets/offers_icons/macchiato/1.jpg";
 import macchiato_2 from "../assets/offers_icons/macchiato/2.jpg";
@@ -31,6 +30,11 @@ import macchiato_4 from "../assets/offers_icons/macchiato/4.jpg";
 
 import extreme_logo from "../assets/offers_icons/extreme/extreme_logo.jpg";
 import extreme_video from "../assets/offers_icons/extreme/extreme_video.mp4";
+import extreme_video_poster from "../assets/offers_icons/extreme/extreme_video_poster.jpg";
+
+import vrzone_logo from "../assets/offers_icons/vrzone/vrzone_logo.jpg";
+import vrzone_video from "../assets/offers_icons/vrzone/vrzone_video.mp4";
+import vrzone_video_poster from "../assets/offers_icons/vrzone/vrzone_video_poster.jpg";
 
 const offers = [
   {
@@ -129,6 +133,71 @@ const offers = [
       stella_7,
       stella_8,
     ],
+  },
+  {
+    key: 5,
+    name: "ميكاتو كوفي شب",
+    date_from: "20/1/2023",
+    date_to: "5/1/2023",
+    descripition: "العروضات المتوفرة من قبل ميكاتو",
+    offers: ["خصم 15% على الاوردر ", "اطلب ارجيلتين والثالثة على المحل"],
+    logo: macchiato_logo,
+    face: "https://www.facebook.com/Macchiatopal?mibextid=ZbWKwL",
+    inst: "https://www.instagram.com/macchiatocaramelpal?igshid=YmMyMTA2M2Y=",
+    number: "0568555255",
+    position: "بيرزيت - بوابة الاي تي - الشارع الرئيسي",
+    time: "8AM-12PM",
+    imgs: [macchiato_1, macchiato_2, macchiato_3, macchiato_4],
+  },
+  {
+    key: 6,
+    name: "اكستريم جيمنج",
+    date_from: "20/1/2023",
+    date_to: "5/1/2023",
+    descripition:
+      "يوفر محل اكستريم جيمنج افضل الاجهزة عالمياً، بالإضافة الى كافتيريا داخلية توفر مختلف الاطعمة والوجبات السريعة، وكل جهاز منفصل عن الاخر من ناحية الانترنت، فلا يؤثر جهاز على الاخر، ويصل قيمة الخصم على العب والوجبات الغدائية الى 30%، ويفضل الحجز المسبق على الاجهزة لكي يتسنى لك فرصة في العب، ومواصفات كل جهاز كالتالي",
+    offers: [
+      "Gigabyte RTX 3060 Aorus Elite",
+      "Intel Core i7-12700k",
+      "Gigabyte Z690 Gaming X",
+      "Corsair Vengeance Rgb 16GB 3600Mhz",
+      "Samsung Evoplus M.2 1TB",
+      "Aorus 750w full modular",
+      "Alienware 25 240Hz 1ms",
+      "HyperX Pulsefire Core",
+      "Mechanical Keyboard CoolerMaster CK550V2",
+      "Cooler Master CH321",
+    ],
+    logo: extreme_logo,
+    face: "https://www.facebook.com/eXtremeGamingCo?mibextid=ZbWKwL",
+    inst: "https://www.instagram.com/extremegaming0?igshid=YmMyMTA2M2Y=",
+    number: "022988773 & 9702988773 & 9702988773",
+    position:
+      "رام الله - شارع ركب - مقابل بوظة ركب - عمارة ناصر - الطابق الثالث",
+    time: "10AM-5AM",
+    video: extreme_video,
+    poster: extreme_video_poster,
+  },
+  {
+    key: 7,
+    name: "في ار زون ",
+    date_from: "20/1/2023",
+    date_to: "5/1/2023",
+    descripition:
+      "يوفؤ في ار زون الكثير من الالعاب المميزة والجماعية باستخدام ال في ار، ويجب عليك حجز مسبقاً للعب، ويوجد بداخله كفي شب، والخصومات التي يوفرها المحل لطلاب الاي تي",
+    offers: [
+      "خصم 20% على الحساب النهائي",
+      "عندما تكون اللعبة تتكون  من 6 أشخاص، حساب الشخص الفائز يكون مجاناً، بالإضافة الى الخصم الاول للأشخاص الاخرين",
+    ],
+    logo: vrzone_logo,
+    face: "https://www.facebook.com/VRzonePS-100266919359921?mibextid=ZbWKwL",
+    inst: "https://www.instagram.com/vrzone.ps?igshid=YmMyMTA2M2Y=",
+    number: "0569702000",
+    position:
+      "رام الله - المصيون - شارع وزارة العدل - بناية بريميوم براند - الطابق الأرضي",
+    time: "10AM-12PM",
+    video: vrzone_video,
+    poster: vrzone_video_poster,
   },
 ];
 
