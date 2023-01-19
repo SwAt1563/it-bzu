@@ -20,8 +20,8 @@ const Team = () => {
         time={offer.time}
         offers={offer.offers}
         imgs={offer?.imgs}
-        video={offer?.video}
-        poster={offer?.poster}
+        video_iframe_source={offer?.video_iframe_source}
+       
         
       />
     );

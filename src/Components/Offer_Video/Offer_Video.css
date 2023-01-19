@@ -1,5 +1,5 @@
-.offer_video video{
-    object-fit: cover;
+.offer_video .video{
+    object-fit:fill;
     max-width: 100%;
     max-height: 100%;
     

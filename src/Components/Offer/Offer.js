@@ -68,6 +68,7 @@ const Offer = (props) => {
                     className="img-fluid "
                     src={props.logo}
                     alt={props.name}
+                    
                   />
                 </div>
                 <div className="content col-lg-8 col-sm-12 ">
@@ -82,10 +83,15 @@ const Offer = (props) => {
                     ))}
                   </ul>
                 </div>
+
+
+
+
               </div>
 
-              {props.imgs ? <Offer_Images imgs={props.imgs} /> : <></>}
-              {props.video ? <Offer_Video video={props.video} poster={props.poster} /> : <></>}
+
+              {props.imgs ? <Offer_Images imgs={props.imgs} /> : null}
+              {props.video_iframe_source ? <Offer_Video video_iframe_source={props.video_iframe_source} /> : null}
             </details>
           </div>
         </div>

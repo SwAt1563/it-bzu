@@ -29,12 +29,8 @@ import macchiato_3 from "../assets/offers_icons/macchiato/3.jpg";
 import macchiato_4 from "../assets/offers_icons/macchiato/4.jpg";
 
 import extreme_logo from "../assets/offers_icons/extreme/extreme_logo.jpg";
-import extreme_video from "../assets/offers_icons/extreme/extreme_video.mp4";
-import extreme_video_poster from "../assets/offers_icons/extreme/extreme_video_poster.jpg";
 
 import vrzone_logo from "../assets/offers_icons/vrzone/vrzone_logo.jpg";
-import vrzone_video from "../assets/offers_icons/vrzone/vrzone_video.mp4";
-import vrzone_video_poster from "../assets/offers_icons/vrzone/vrzone_video_poster.jpg";
 
 const offers = [
   {
@@ -178,8 +174,8 @@ const offers = [
     position:
       "رام الله - شارع ركب - مقابل بوظة ركب - عمارة ناصر - الطابق الثالث",
     time: "10AM-5AM",
-    video: extreme_video,
-    poster: extreme_video_poster,
+    video_iframe_source:
+      "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FeXtremeGamingC%2Fvideos%2F822862945592478%2F&show_text=false&width=560&t=0",
   },
   {
     key: 7,
@@ -199,8 +195,8 @@ const offers = [
     position:
       "رام الله - المصيون - شارع وزارة العدل - بناية بريميوم براند - الطابق الأرضي",
     time: "2PM-12AM",
-    video: vrzone_video,
-    poster: vrzone_video_poster,
+    video_iframe_source: "https://www.facebook.com/plugins/video.php?height=233&href=https%3A%2F%2Fwww.facebook.com%2FVRzonenablus%2Fvideos%2F3169144850071578%2F&show_text=false&width=560&t=0",
+   
   },
 ];
 
