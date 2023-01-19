@@ -22,6 +22,16 @@ import stella_6 from "../assets/offers_icons/stella/6.jpg";
 import stella_7 from "../assets/offers_icons/stella/7.jpg";
 import stella_8 from "../assets/offers_icons/stella/8.jpg";
 
+
+import macchiato_logo from "../assets/offers_icons/macchiato/macchiato_logo.jpg";
+import macchiato_1 from "../assets/offers_icons/macchiato/1.jpg";
+import macchiato_2 from "../assets/offers_icons/macchiato/2.jpg";
+import macchiato_3 from "../assets/offers_icons/macchiato/3.jpg";
+import macchiato_4 from "../assets/offers_icons/macchiato/4.jpg";
+
+import extreme_logo from "../assets/offers_icons/extreme/extreme_logo.jpg";
+import extreme_video from "../assets/offers_icons/extreme/extreme_video.mp4";
+
 const offers = [
   {
     key: 1,

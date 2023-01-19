@@ -7,6 +7,7 @@ import {
   FaCaretDown,
   FaCaretUp,
 } from "react-icons/fa";
+import { Offer_Video, Offer_Images } from "../index";
 
 const Offer = (props) => {
   const side =
@@ -83,19 +84,8 @@ const Offer = (props) => {
                 </div>
               </div>
 
-              {props.imgs ? (
-                <div className="assets mt-3 p-5">
-                  <div className=" row ">
-                    {props?.imgs.map((asset) => (
-                      <div className="asset mb-3 col-lg-6 col-sm-12 d-flex align-items-center justify-content-center">
-                        <img src={asset} alt="" className="img-fluid" />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ) : (
-                <></>
-              )}
+              {props.imgs ? <Offer_Images imgs={props.imgs} /> : <></>}
+              {props.video ? <Offer_Video video={props.video} /> : <></>}
             </details>
           </div>
         </div>

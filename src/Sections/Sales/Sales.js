@@ -20,6 +20,7 @@ const Team = () => {
         time={offer.time}
         offers={offer.offers}
         imgs={offer?.imgs}
+        video={offer?.video}
         
       />
     );
