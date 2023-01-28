@@ -32,6 +32,8 @@ import extreme_logo from "../assets/offers_icons/extreme/extreme_logo.jpg";
 
 import vrzone_logo from "../assets/offers_icons/vrzone/vrzone_logo.jpg";
 
+import labco_logo from "../assets/offers_icons/labco.jpg";
+
 const offers = [
   {
     key: 1,
@@ -134,7 +136,7 @@ const offers = [
     key: 5,
     name: "ميكاتو كوفي شب",
     date_from: "20/1/2023",
-    date_to: "5/1/2023",
+    date_to: "5/2/2023",
     descripition: "العروضات المتوفرة من قبل ميكاتو",
     offers: [
       "خصم 15% على الحساب النهائي ",
@@ -152,7 +154,7 @@ const offers = [
     key: 6,
     name: "اكستريم جيمنج",
     date_from: "20/1/2023",
-    date_to: "5/1/2023",
+    date_to: "5/2/2023",
     descripition:
       "يوفر محل اكستريم جيمنج افضل الاجهزة عالمياً، بالإضافة الى كافتيريا داخلية توفر مختلف الاطعمة والوجبات السريعة، وكل جهاز منفصل عن الاخر من ناحية الانترنت، فلا يؤثر جهاز على الاخر، ويصل قيمة الخصم على العب والوجبات الغدائية الى 30%، ويفضل الحجز المسبق على الاجهزة لكي يتسنى لك فرصة في العب، ومواصفات كل جهاز كالتالي",
     offers: [
@@ -181,7 +183,7 @@ const offers = [
     key: 7,
     name: "في ار زون ",
     date_from: "20/1/2023",
-    date_to: "5/1/2023",
+    date_to: "5/2/2023",
     descripition:
       "يوفر في ار زون الكثير من الالعاب المميزة والجماعية باستخدام ال في ار، والتي هي لعبة الزومبي ولعبة الأكشن ولعبة الفضاء ولعبة الوحوش والتنانين، ويمكنكم العب كتيم واحد او العب ضد بعض، ويجب عليك الحجز مسبقاً للعب، ويوجد بداخله كفي شب بالإضافة الى سباق سيارات، والخصومات التي يوفرها المحل لطلاب الاي تي",
     offers: [
@@ -195,8 +197,34 @@ const offers = [
     position:
       "رام الله - المصيون - شارع وزارة العدل - بناية بريميوم براند - الطابق الأرضي",
     time: "2PM-12AM",
-    video_iframe_source: "https://www.facebook.com/plugins/video.php?height=233&href=https%3A%2F%2Fwww.facebook.com%2FVRzonenablus%2Fvideos%2F3169144850071578%2F&show_text=false&width=560&t=0",
-   
+    video_iframe_source:
+      "https://www.facebook.com/plugins/video.php?height=233&href=https%3A%2F%2Fwww.facebook.com%2FVRzonenablus%2Fvideos%2F3169144850071578%2F&show_text=false&width=560&t=0",
+  },
+  {
+    key: 8,
+    name: "لابكو للتجهيزات العلمية والمخبرية",
+    date_from: "28/1/2023",
+    date_to: "25/2/2023",
+    descripition:
+      "عند ابراز بطاقتك للمحل سوف تحصل على خصم على اي قطعة بأقل من سعر التاجر، بالإضافة لخصم مميز لقطع الانترفيس الازمة للمشروع، بحيث يصل مجموع سعر هذه القطع الى 200 شيكل، وعند ابراز بطاقتك سوف تحصل على خصم على هذا السعر ايضاً",
+    offers: [
+      "3 * ULTRASONIC RANGING MODULE HC-SR04",
+      "2 * INFRARED BARRIER MODULE AVOIDANCE OBSTACLE AVOIDANCE SENSOR",
+      "2 * LITHIUM ION BATTERY - 18650 CELL (5000MAH)",
+      "BATTERY HOLDER - 2X18650 (WIRE LEADS)",
+      "BATTERY CHARGER PLUG 2 SLOTS 18650",
+      "ADJUSTABLE INTEGRATED DC-DC MODULE- LM2596S",
+      "H-BRIDGE",
+      "ARDUINO UNO",
+      "BREADBOARD",
+      "WIRES M-M M-F F-M",
+      "2WD MINIQ ROBOT CHASSIS سعرها 320 شيكل من لابو بمجمع الجوهرة بجانب مفرق الجامعة، وعليها خصم 18% يمكنك شرائها من هناك",
+    ],
+    logo: labco_logo,
+    face: "https://www.facebook.com/labco.Ramallah?mibextid=ZbWKwL",
+    number: "97222986703+",
+    position: "رام الله - شارع الإرسال - عمارة الزكاة - فوق الطريفي مول - ط2",
+    time: "8AM-5:30PM",
   },
 ];
 
