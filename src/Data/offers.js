@@ -218,7 +218,6 @@ const offers = [
       "ARDUINO UNO",
       "BREADBOARD",
       "WIRES M-M M-F F-M",
-      "ROBOT CHASSIS",
     ],
     logo: labco_logo,
     face: "https://www.facebook.com/labco.Ramallah?mibextid=ZbWKwL",
