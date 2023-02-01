@@ -218,7 +218,7 @@ const offers = [
       "ARDUINO UNO",
       "BREADBOARD",
       "WIRES M-M M-F F-M",
-      "2WD MINIQ ROBOT CHASSIS سعرها 320 شيكل من لابو بمجمع الجوهرة بجانب مفرق الجامعة، وعليها خصم 18% يمكنك شرائها من هناك",
+      "ROBOT CHASSIS",
     ],
     logo: labco_logo,
     face: "https://www.facebook.com/labco.Ramallah?mibextid=ZbWKwL",
