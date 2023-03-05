@@ -1,0 +1,14 @@
+.switch_courses .title {
+  color: var(--color-primary);
+}
+
+.switch_courses .done {
+  color: var(--color-light);
+}
+
+.switch_courses .done a {
+  color: var(--color-primary);
+}
+.switch_courses .hidden {
+  display: none;
+}

@@ -15,6 +15,7 @@ import {
   About_us,
   Google_Form,
   Project_Groups,
+  Switch_Courses,
 } from "./Pages/index";
 
 import { app } from "./firebase";
@@ -37,6 +38,10 @@ const App = () => {
             <Route
               path="/project_groups"
               element={<Project_Groups database={db} />}
+            />
+            <Route
+              path="/switch_courses"
+              element={<Switch_Courses database={db} />}
             />
             <Route
               path="/card_registration"

@@ -1,0 +1,6 @@
+.course_person .card{
+
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border-right: 5px solid var(--color-primary);
+}

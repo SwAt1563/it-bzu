@@ -40,6 +40,7 @@ const Header = () => {
               </NavItem>
               <NavItem link="/offers">العروضات</NavItem>
               <NavItem link="/project_groups">المشاريع</NavItem>
+              <NavItem link="/switch_courses">الشعب</NavItem>
               <NavItem link="/about_us">من نحن</NavItem>
             </ul>
           </div>
