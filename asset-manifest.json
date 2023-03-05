@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/it-bzu/static/css/main.b5daca0a.css",
-    "main.js": "/it-bzu/static/js/main.57656ade.js",
+    "main.css": "/it-bzu/static/css/main.adf13d73.css",
+    "main.js": "/it-bzu/static/js/main.a875742b.js",
     "static/media/it_card.png": "/it-bzu/static/media/it_card.263171815bf393324e27.png",
     "static/media/qo.jpg": "/it-bzu/static/media/qo.194022b9a9955d25045a.jpg",
     "static/media/1.jpg": "/it-bzu/static/media/1.890445664df770c5db36.jpg",
@@ -24,11 +24,11 @@
     "static/media/extreme_logo.jpg": "/it-bzu/static/media/extreme_logo.5ab7786ab69488543542.jpg",
     "static/media/stella_logo.jpg": "/it-bzu/static/media/stella_logo.741540a85cb223777084.jpg",
     "index.html": "/it-bzu/index.html",
-    "main.b5daca0a.css.map": "/it-bzu/static/css/main.b5daca0a.css.map",
-    "main.57656ade.js.map": "/it-bzu/static/js/main.57656ade.js.map"
+    "main.adf13d73.css.map": "/it-bzu/static/css/main.adf13d73.css.map",
+    "main.a875742b.js.map": "/it-bzu/static/js/main.a875742b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5daca0a.css",
-    "static/js/main.57656ade.js"
+    "static/css/main.adf13d73.css",
+    "static/js/main.a875742b.js"
   ]
 }
