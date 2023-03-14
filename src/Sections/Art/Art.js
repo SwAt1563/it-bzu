@@ -36,7 +36,7 @@ const Art = () => {
             </div>
           </div>
 
-          <hr className="mt-5" />
+          {/* <hr className="mt-5" />
 
           <div className="row mt-5  d-flex align-items-center justify-content-center">
             <div className="content col-sm-12 col-lg-8">
@@ -58,7 +58,7 @@ const Art = () => {
             <div className="logo col-sm-12 col-lg-4  ">
               <img className="img-fluid rounded" src={asal} alt="ASAL Logo" />
             </div>
-          </div>
+          </div> */}
 
           <hr className="mt-5" />
 
