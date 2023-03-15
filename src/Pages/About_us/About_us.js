@@ -54,7 +54,7 @@ const About_us = (props) => {
                 type="text"
                 id="link"
                 className="form-control rounded-0"
-                placeholder="رابط للتواصل - اختياري - "
+                placeholder="رابط للتواصل معك - اختياري - "
                 aria-label="Search"
                 aria-describedby="search-addon"
                 
