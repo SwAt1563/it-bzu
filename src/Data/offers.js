@@ -34,12 +34,42 @@ import vrzone_logo from "../assets/offers_icons/vrzone/vrzone_logo.jpg";
 
 import labco_logo from "../assets/offers_icons/labco.jpg";
 
+import fadi_logo from "../assets/offers_icons/fadi/fadi_logo.jpg";
+import fadi_1 from "../assets/offers_icons/fadi/1.jpg";
+import fadi_2 from "../assets/offers_icons/fadi/2.jpg";
+import fadi_3 from "../assets/offers_icons/fadi/3.jpg";
+import fadi_4 from "../assets/offers_icons/fadi/4.jpg";
+import fadi_5 from "../assets/offers_icons/fadi/5.jpg";
+import fadi_6 from "../assets/offers_icons/fadi/6.jpg";
+import fadi_7 from "../assets/offers_icons/fadi/7.jpg";
+import fadi_8 from "../assets/offers_icons/fadi/8.jpg";
+import fadi_9 from "../assets/offers_icons/fadi/9.jpg";
+import fadi_10 from "../assets/offers_icons/fadi/10.jpg";
+import fadi_11 from "../assets/offers_icons/fadi/11.jpg";
+import fadi_12 from "../assets/offers_icons/fadi/12.jpg";
+import fadi_13 from "../assets/offers_icons/fadi/13.jpg";
+import fadi_14 from "../assets/offers_icons/fadi/14.jpg";
+import fadi_15 from "../assets/offers_icons/fadi/15.jpg";
+import fadi_16 from "../assets/offers_icons/fadi/16.jpg";
+import fadi_17 from "../assets/offers_icons/fadi/17.jpg";
+import fadi_18 from "../assets/offers_icons/fadi/18.jpg";
+import fadi_19 from "../assets/offers_icons/fadi/19.jpg";
+import fadi_20 from "../assets/offers_icons/fadi/20.jpg";
+import fadi_21 from "../assets/offers_icons/fadi/21.jpg";
+import fadi_22 from "../assets/offers_icons/fadi/22.jpg";
+import fadi_23 from "../assets/offers_icons/fadi/23.jpg";
+import fadi_24 from "../assets/offers_icons/fadi/24.jpg";
+import fadi_25 from "../assets/offers_icons/fadi/25.jpg";
+import fadi_26 from "../assets/offers_icons/fadi/26.jpg";
+import fadi_27 from "../assets/offers_icons/fadi/27.jpg";
+import fadi_28 from "../assets/offers_icons/fadi/28.jpg";
+
 const offers = [
   {
     key: 1,
     name: "ايزي لايف",
-    date_from: "15/12/2022",
-    date_to: "1/5/2023",
+    date_from: "12/15/2022",
+    date_to: "5/1/2023",
     descripition: "يتم الحصول على هذه العروضات عند شراء اي لابتوب من المحل",
     offers: [
       "خصم يعتمد على نوع الابتوب يصل الى 300 شيكل",
@@ -66,7 +96,7 @@ const offers = [
     key: 2,
     name: "بريك كورنر",
     date_from: "1/1/2023",
-    date_to: "5/2/2023",
+    date_to: "4/5/2023",
     descripition: "يتم الحصول على هذه العروض عند زيارة المكان",
     offers: [
       "حجز غرف ال VIPs عن طريق الاتصال بالمحل مسبقا, التي توفر شاشة Projector، LCD، كوابل نت فايبر، ونت واي فاي، شواحن لجميع الجولات، تدفئة وتهوية مركزية، اضاءة خاصة و غرفة منعزلة عن الصوت ... ويتم ذلك من خلال الحجز من قبل 3 اشخاص او اكثر ويتم الحصول على خصم 15% على الأطعمة ويشمل الخصم المشروبات والاراجيل عندما يكونوا 5 اشخاص او اكثر",
@@ -83,8 +113,8 @@ const offers = [
   {
     key: 3,
     name: "هديتي للادوات المنزلية",
-    date_from: "8/1/2023",
-    date_to: "1/2/2023",
+    date_from: "1/8/2023",
+    date_to: "2/1/2023",
     descripition:
       "يوفر المحل الكثير من الادوات والاثاث المنزلي وهدايا تستطيعوا ان تقدموها لزملائكم او حتى الى والداتكم، ويتمتع المحل بخدمة التوصيل فحتى لو لم تكن طالب سكنات في بيرزيت سوف يتم ايصال طلبك حتى منزلك، ولا تنسوا متابعة صفحة المحل لتعرفوا كل غرض جديد  ",
     offers: [
@@ -103,7 +133,7 @@ const offers = [
   {
     key: 4,
     name: "ستيلا جولد للاكسسوارات",
-    date_from: "15/1/2023",
+    date_from: "1/15/2023",
     date_to: "-",
     descripition: "العروضات المتوفرة من قبل ستيلا جولد",
     offers: [
@@ -135,8 +165,8 @@ const offers = [
   {
     key: 5,
     name: "ميكاتو كوفي شب",
-    date_from: "20/1/2023",
-    date_to: "5/2/2023",
+    date_from: "1/20/2023",
+    date_to: "2/5/2023",
     descripition: "العروضات المتوفرة من قبل ميكاتو",
     offers: [
       "خصم 15% على الحساب النهائي ",
@@ -153,8 +183,8 @@ const offers = [
   {
     key: 6,
     name: "اكستريم جيمنج",
-    date_from: "20/1/2023",
-    date_to: "5/2/2023",
+    date_from: "1/20/2023",
+    date_to: "2/5/2023",
     descripition:
       "يوفر محل اكستريم جيمنج افضل الاجهزة عالمياً، بالإضافة الى كافتيريا داخلية توفر مختلف الاطعمة والوجبات السريعة، وكل جهاز منفصل عن الاخر من ناحية الانترنت، فلا يؤثر جهاز على الاخر، ويصل قيمة الخصم على العب والوجبات الغدائية الى 30%، ويفضل الحجز المسبق على الاجهزة لكي يتسنى لك فرصة في العب، ومواصفات كل جهاز كالتالي",
     offers: [
@@ -182,8 +212,8 @@ const offers = [
   {
     key: 7,
     name: "في ار زون ",
-    date_from: "20/1/2023",
-    date_to: "5/2/2023",
+    date_from: "1/20/2023",
+    date_to: "2/5/2023",
     descripition:
       "يوفر في ار زون الكثير من الالعاب المميزة والجماعية باستخدام ال في ار، والتي هي لعبة الزومبي ولعبة الأكشن ولعبة الفضاء ولعبة الوحوش والتنانين، ويمكنكم العب كتيم واحد او العب ضد بعض، ويجب عليك الحجز مسبقاً للعب، ويوجد بداخله كفي شب بالإضافة الى سباق سيارات، والخصومات التي يوفرها المحل لطلاب الاي تي",
     offers: [
@@ -203,8 +233,8 @@ const offers = [
   {
     key: 8,
     name: "لابكو للتجهيزات العلمية والمخبرية",
-    date_from: "28/1/2023",
-    date_to: "25/2/2023",
+    date_from: "1/28/2023",
+    date_to: "2/25/2023",
     descripition:
       "عند ابراز بطاقتك للمحل سوف تحصل على خصم على اي قطعة بأقل من سعر التاجر، بالإضافة لخصم مميز لقطع الانترفيس الازمة للمشروع، بحيث يصل مجموع سعر هذه القطع الى 200 شيكل، وعند ابراز بطاقتك سوف تحصل على خصم على هذا السعر ايضاً",
     offers: [
@@ -224,6 +254,56 @@ const offers = [
     number: "97222986703+",
     position: "رام الله - شارع الإرسال - عمارة الزكاة - فوق الطريفي مول - ط2",
     time: "8AM-5:30PM",
+  },
+  {
+    key: 9,
+    name: "فادي وشحة للاثاث المستخدم والجديد",
+    date_from: "3/16/2023",
+    date_to: "4/28/2023",
+    descripition: "يمكنك الحصول على العروض التالية عند ابراز بطاقتك للمحل",
+    offers: [
+      "خصم من 5% الى 20% يعتمد على نوع البضاعة المشتراه",
+      "25 شيكل ايجار التوصيل بدل 30 شيكل للشحن الكبير",
+      "امكانية بيع البضاعة المشتراه من المحل لنفس المحل مع فارق 10-20 % للسعر الذي اشتريته منه عند الانتهاء من استعمالها",
+      "يوفر لك المحل اي كرسي جيمنج تريدها عند الطلب ان لم يكن يوجد عنده بفارق كبير عن سعر السوق",
+      "يوفر لك المحل مكاتب على شكل حرف L عند الطلب ان لم يكن يوجد عنده وهذا المكاتب جيدة جداً لطلاب الاي تي مع فارق كبير عن سعر السوق",
+    ],
+
+    logo: fadi_logo,
+    face: "https://www.facebook.com/profile.php?id=100063739322306&mibextid=ZbWKwL",
+    number: "0594155198",
+    position: "بيرزيت - شارع مدرسة الامير حسن - جانب سوبر ماركت ابو تامر",
+    time: "-",
+    imgs: [
+      fadi_1,
+      fadi_2,
+      fadi_3,
+      fadi_4,
+      fadi_5,
+      fadi_6,
+      fadi_7,
+      fadi_8,
+      fadi_9,
+      fadi_10,
+      fadi_11,
+      fadi_12,
+      fadi_13,
+      fadi_14,
+      fadi_15,
+      fadi_16,
+      fadi_17,
+      fadi_18,
+      fadi_19,
+      fadi_20,
+      fadi_21,
+      fadi_22,
+      fadi_23,
+      fadi_24,
+      fadi_25,
+      fadi_26,
+      fadi_27,
+      fadi_28,
+    ],
   },
 ];
 
