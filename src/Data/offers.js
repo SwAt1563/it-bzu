@@ -64,6 +64,8 @@ import fadi_26 from "../assets/offers_icons/fadi/26.jpg";
 import fadi_27 from "../assets/offers_icons/fadi/27.jpg";
 import fadi_28 from "../assets/offers_icons/fadi/28.jpg";
 
+import tarweqa_logo from "../assets/offers_icons/tarweqa/tarweqa_logo.jpg";
+
 const offers = [
   {
     key: 1,
@@ -304,6 +306,22 @@ const offers = [
       fadi_27,
       fadi_28,
     ],
+  },
+  {
+    key: 10,
+    name: "مخبز ترويقة",
+    date_from: "3/28/2023",
+    date_to: "4/30/2023",
+    descripition:
+      "يمكنك معرفة وجبة اليوم من خلال زيارة صفحة المحل، ويمكنك الحصول على هذه العروضات عند إبراز بطاقتك",
+    offers: [
+      "سعر وجبة رمضان تشمل السلطة،لبن وشوربة مع توصيل مجاني فقط ب 18 شيكل",
+    ],
+    logo: tarweqa_logo,
+    face: "https://www.facebook.com/profile.php?id=100063609010716",
+    number: "+972594931204",
+    position: "رام الله - بيرزيت - بجانب تكسي الشهد",
+    time: "-",
   },
 ];
 
