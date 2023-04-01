@@ -1,6 +1,6 @@
 import "./Services.css";
 import { Service } from "../../Components";
-import Fade from "react-reveal/Fade";
+
 const Services = () => {
   return (
     <>
