@@ -308,6 +308,7 @@ const offers = [
     ],
   },
   {
+    
     key: 10,
     name: "مخبز ترويقة",
     date_from: "3/28/2023",

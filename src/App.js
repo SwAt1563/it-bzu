@@ -16,6 +16,7 @@ import {
   Google_Form,
   Project_Groups,
   Switch_Courses,
+  Services,
 } from "./Pages/index";
 
 import { app } from "./firebase";
@@ -36,6 +37,10 @@ const App = () => {
             <Route path="/offers" element={<Offers />} />
             <Route path="/about_us" element={<About_us database={db}/>} 
             
+            />
+             <Route
+              path="/services"
+              element={<Services  />}
             />
             <Route
               path="/project_groups"
