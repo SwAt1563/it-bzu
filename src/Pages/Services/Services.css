@@ -1,4 +1,7 @@
-.card {
+.services .title {
+  color: var(--color-primary);
+}
+.services .card {
   width: 300px;
   height: 150px;
   border: 2px solid var(--color-light);
@@ -6,12 +9,12 @@
   color: var(--color-light);
 }
 
-.card:hover {
+.services .card:hover {
   color: var(--color-primary);
   border: 2px solid var(--color-primary) !important;
   transition: 0.2s;
 }
 
-.services .row {
+.services .services .row {
   justify-content: center !important;
 }

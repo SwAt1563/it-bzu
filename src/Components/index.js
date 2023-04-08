@@ -7,4 +7,6 @@ export { default as Offer_Images } from "./Offer_Images/Offer_Images";
 export { default as Offer_Video } from "./Offer_Video/Offer_Video";
 export { default as Course_Person } from "./Course_Person/Course_Person";
 export { default as Service } from "./Service/Service";
+export { default as Item_Price } from "./Item_Price/Item_Price";
 
+export { default as Property } from "./Property/Property";

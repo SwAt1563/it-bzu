@@ -3,6 +3,7 @@ import "./Art.css";
 import { Link } from "react-router-dom";
 import it_card from "../../assets/it_card.png";
 import asal from "../../assets/asal.jpg";
+import ramdan from "../../assets/ramdan.png";
 
 const Art = () => {
   return (
@@ -35,7 +36,6 @@ const Art = () => {
               <img className="img-fluid " src={it_card} alt="IT_Logo" />
             </div>
           </div>
-
           {/* <hr className="mt-5" />
 
           <div className="row mt-5  d-flex align-items-center justify-content-center">
@@ -59,11 +59,63 @@ const Art = () => {
               <img className="img-fluid rounded" src={asal} alt="ASAL Logo" />
             </div>
           </div> */}
+          <hr className="mt-5" />
+          <div className="row mt-5  d-flex align-items-center justify-content-center">
+            <div className="content col-sm-12 col-lg-8">
+              <h3 className="title mb-4">
+                فطور وأمسية رمضانية لطلاب الاي تي بالتعاون مع أنا جوال وايزي
+                لايف
+              </h3>
+              <div className="descripition mb-4 ">
+                قام قتيبة عليان بالتعاون مع أنا جوال بتحضير فطور وأمسية رمضانية
+                بمطعم بريك كورنر برعاية أيزي لايف، وسوف يتخلل هذه الامسية الكثير
+                من الأنشطة والفعاليات والجوائز الكثيرة، ولا سيما مفاجئات خاصة
+                لطلاب الأنرات، وعروضات وخصومات خلال هذه الأمسية موضحة في فورم
+                التسجيل.
+              </div>
+
+              <div className="register-btn btn mb-4">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHHEitx0iM_UIQWsNnqxVyXkCBgRCfdhSxh0IOawg9zhnD1Q/viewform?usp=sf_link">
+                  التسجيل
+                </a>
+              </div>
+            </div>
+
+            <div className="logo col-sm-12 col-lg-4  ">
+              <img
+                className="img-fluid rounded"
+                src={ramdan}
+                alt="ramdan Logo"
+              />
+            </div>
+          </div>
 
           <hr className="mt-5" />
-
           <div className="row mt-5  d-flex align-items-center justify-content-center">
-            <div className="content col-sm-12 col-lg-11">
+            <div className="content col-sm-12 col-lg-12">
+              <h3 className="title mb-4">
+                يمكنك الآن البحث عن الأغراض المتوفرة لمساق ما
+              </h3>
+              <div className="descripition mb-4 ">
+                هذه الميزة خاصة للطلاب الذين يريدون عرض أغراضهم للطلاب الآخرين،
+                فأن كان لديك غرض لمساق ما وتريد عرضه على الطلاب مجاناً أو بمبلغ
+                مالي ما عليك الا أن تدخل معلوماتك للتواصل معك وما هي الأغراض
+                التي تريد بيعها أو تسليمها للطلاب، فمثلاً أن كان لديك فورمات
+                لمساق ما وتريد بيعه للطلاب فما عليك الا ان تكتب معلوماتك
+                بالإضافة الى رمز المساق وتفاصيل هذا الفورمات، وهذا ينطبق على
+                الأغراض الأخرى مثل عدة المشغل، أو شنطة مرسم، أو كتب دراسية ويعود
+                لك بيع هذه الأغراض أو عرضها مجاناً للطلاب.
+              </div>
+
+              <div className="register-btn btn mb-4">
+                <Link to="/properties"> جد غرضك </Link>
+              </div>
+            </div>
+          </div>
+
+          <hr className="mt-5" />
+          <div className="row mt-5  d-flex align-items-center justify-content-center">
+            <div className="content col-sm-12 col-lg-12">
               <h3 className="title mb-4">
                 من الان قد أصبح من السهل إيجاد جروب لمشروعك
               </h3>
@@ -82,11 +134,9 @@ const Art = () => {
               </div>
             </div>
           </div>
-
           <hr className="mt-5" />
-
           <div className="row mt-5  d-flex align-items-center justify-content-center">
-            <div className="content col-sm-12 col-lg-11">
+            <div className="content col-sm-12 col-lg-12">
               <h3 className="title mb-4">
                 ان اردت ان تدخل الى شعبة ممتلئة ما عليك الا البحث عنها او
                 التسجيل بها

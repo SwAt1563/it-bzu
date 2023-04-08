@@ -1,0 +1,8 @@
+.properties .title {
+  color: var(--color-primary);
+}
+
+
+.property-ies .row {
+  justify-content: center !important;
+}

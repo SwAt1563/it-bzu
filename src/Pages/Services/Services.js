@@ -13,9 +13,9 @@ const Services = () => {
 
           <div className="cont d-flex align-items-center justify-content-center">
             <div className="row ">
-              <Service title="تبديل الشعب" link="/switch_courses" />
+              <Service title="بدل شعبتك" link="/switch_courses" />
               <Service title="جروب لمشروعك" link="/project_groups" />
-              <Service title="جد غرضك" link="" />
+              <Service title="جد غرضك" link="/properties" />
             </div>
           </div>
         </div>

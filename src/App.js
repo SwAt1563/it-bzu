@@ -7,8 +7,6 @@ import "./App.css";
 import { Container } from "./Components/index";
 import { Header, Footer } from "./Sections/index";
 
-
-
 import {
   Home,
   Offers,
@@ -17,12 +15,11 @@ import {
   Project_Groups,
   Switch_Courses,
   Services,
+  Properties,
 } from "./Pages/index";
 
 import { app } from "./firebase";
 import { getDatabase } from "firebase/database";
-
-
 
 const db = getDatabase(app);
 
@@ -35,13 +32,8 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/offers" element={<Offers />} />
-            <Route path="/about_us" element={<About_us database={db}/>} 
-            
-            />
-             <Route
-              path="/services"
-              element={<Services  />}
-            />
+            <Route path="/about_us" element={<About_us database={db} />} />
+            <Route path="/services" element={<Services />} />
             <Route
               path="/project_groups"
               element={<Project_Groups database={db} />}
@@ -50,6 +42,12 @@ const App = () => {
               path="/switch_courses"
               element={<Switch_Courses database={db} />}
             />
+
+            <Route
+              path="/properties"
+              element={<Properties  database={db}/>}
+            />
+
             <Route
               path="/card_registration"
               element={

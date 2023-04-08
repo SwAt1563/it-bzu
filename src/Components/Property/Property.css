@@ -1,0 +1,36 @@
+
+
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  background-color: var(--color-primary);
+  width: 60px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -20px;
+  left: 19px;
+}
+
+.font-italic {
+  color: var(--color-dark);
+}
+
+.sec a  {
+  color: var(--color-primary);
+}
+
+.card {
+  border: 0;
+}
+
+.blockquote {
+  border-radius: 10px;
+}
+
