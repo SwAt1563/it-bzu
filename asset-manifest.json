@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/it-bzu/static/css/main.40370b26.css",
-    "main.js": "/it-bzu/static/js/main.eebb37d0.js",
+    "main.css": "/it-bzu/static/css/main.aca530fb.css",
+    "main.js": "/it-bzu/static/js/main.ce60169b.js",
     "static/media/it_card.png": "/it-bzu/static/media/it_card.263171815bf393324e27.png",
     "static/media/qo.jpg": "/it-bzu/static/media/qo.194022b9a9955d25045a.jpg",
+    "static/media/ramdan.png": "/it-bzu/static/media/ramdan.fab9b6705b1f9b66a830.png",
     "static/media/24.jpg": "/it-bzu/static/media/24.b07fdc7840029daf7c16.jpg",
     "static/media/18.jpg": "/it-bzu/static/media/18.05c251c7bfc0d08588a0.jpg",
     "static/media/12.jpg": "/it-bzu/static/media/12.9c63f75e1fdc42150874.jpg",
@@ -46,11 +47,11 @@
     "static/media/stella_logo.jpg": "/it-bzu/static/media/stella_logo.741540a85cb223777084.jpg",
     "static/media/11.jpg": "/it-bzu/static/media/11.a4109cccacbb89f1d547.jpg",
     "index.html": "/it-bzu/index.html",
-    "main.40370b26.css.map": "/it-bzu/static/css/main.40370b26.css.map",
-    "main.eebb37d0.js.map": "/it-bzu/static/js/main.eebb37d0.js.map"
+    "main.aca530fb.css.map": "/it-bzu/static/css/main.aca530fb.css.map",
+    "main.ce60169b.js.map": "/it-bzu/static/js/main.ce60169b.js.map"
   },
   "entrypoints": [
-    "static/css/main.40370b26.css",
-    "static/js/main.eebb37d0.js"
+    "static/css/main.aca530fb.css",
+    "static/js/main.ce60169b.js"
   ]
 }
