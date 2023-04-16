@@ -3,17 +3,21 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 const Property = (props) => {
-  const [price, setPrice] = useState("Free");
+  const [price, setPrice] = useState("");
 
   const checkPrice = (e) => {
-    if (props.price != "0") {
-      setPrice(props.price);
+    if (props.price === "0") {
+      setPrice("مجاناً");
+    }else if(props.price === "-1"){
+      setPrice("للتبديل");
+    }else{
+      setPrice(`${props.price}₪`)
     }
   };
 
   useEffect(() => {
     checkPrice();
-  }, []);
+  }, [props.price]);
 
   return (
     <>
@@ -22,7 +26,7 @@ const Property = (props) => {
           <div class="card-main">
             <div class="card-body">
               <blockquote class="blockquote blockquote-custom bg-white px-3 pt-4">
-                <div class="blockquote-custom-icon  shadow-1-strong">{price === "Free" ? "Free" : price + "₪"}</div>
+                <div class="blockquote-custom-icon  shadow-1-strong">{price}</div>
                 <p class="mb-0 mt-2 font-italic">
                   {props.desc}
                   <a href={props.facebook} class="facebook " target="_blank">

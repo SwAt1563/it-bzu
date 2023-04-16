@@ -13,10 +13,16 @@ const Properties = (props) => {
   const [nummber_of_items, setNumberOfItems] = useState(0);
   const [search_data, setSearch_data] = useState(null);
   const [search_empty, setSearch_empty] = useState("");
+  const [selectedOption, setSelectedOption] = useState("");
+
 
   const handlePlusItem = () => {
     setComponents([...components, <Item_Price index={nummber_of_items + 1} />]);
     setNumberOfItems(nummber_of_items + 1);
+  };
+
+  const handleOptionChange = (e) => {
+    setSelectedOption(e.target.value);
   };
 
   const handle_insert = (event) => {
@@ -40,15 +46,17 @@ const Properties = (props) => {
       const desc = target.hasOwnProperty(`desc_${index}`)
         ? target[`desc_${index}`].value.toLowerCase()
         : "";
-      const free = target.hasOwnProperty(`free_${index}`)
-        ? target[`free_${index}`].value.toLowerCase()
+      const itemStatus = target.hasOwnProperty(`itemStatus_${index}`)
+        ? target[`itemStatus_${index}`].value.toLowerCase()
         : "";
-      let price = 0;
+      let price = "0";
 
-      if (free === "no") {
+      if (itemStatus === "no") {
         price = target.hasOwnProperty(`price_${index}`)
           ? target[`price_${index}`].value.toLowerCase()
-          : 0;
+          : "0";
+      }else if (itemStatus === "change"){
+        price = "-1";
       }
 
       const putData = () => {
@@ -101,15 +109,35 @@ const Properties = (props) => {
         } else {
           console.log("No data available");
           setSearch_empty(() => "لا يوجد أغراض متوفرة لهذا المساق");
+          setSearch_data(null);
+          return;
         }
       })
       .catch((error) => {
         console.error(error);
       });
 
+      if(selectedOption === "price"){
+        arr = arr?.filter((element) => element.price !== "-1" && element.price !== "0")
+
+      }else if(selectedOption === "change"){
+        arr = arr?.filter((element) => element.price === "-1");
+
+      }else if(selectedOption === "free"){
+        arr = arr?.filter((element) => element.price === "0");
+      }
+
+    
+      if(arr.length === 0){
+        console.log(arr.length)
+        setSearch_empty("لا يوجد أغراض متوفرة لهذا المساق");
+        setSearch_data(null);
+        return;
+      }
+
     setSearch_data(
       arr?.map((property, index) => {
-        console.log({ property });
+        
         return (
           <Property
             index={index}
@@ -171,7 +199,7 @@ const Properties = (props) => {
                 <div key={index}>{component}</div>
               ))}
             </div>
-            <FaPlusCircle onClick={handlePlusItem} className="mt-3 fs-3" />
+            <FaPlusCircle onClick={handlePlusItem} className="add mt-3 fs-3" />
 
             <button type="submit" className="btn btn-primary w-100 mt-5">
               أعرضه للطلاب
@@ -193,12 +221,21 @@ const Properties = (props) => {
                 <input
                   type="text"
                   id="search"
-                  class="form-control rounded-0"
+                  className="form-control rounded-0 w-50"
                   placeholder="رمز المساق الذي تريده"
                   aria-label="Search"
                   aria-describedby="search-addon"
                   required
                 />
+
+             
+
+<select id="search_type" value={selectedOption} onChange={handleOptionChange} class="form-control rounded-0 w-25 text-center" aria-label="Search" aria-describedby="search-addon">
+      <option value="all">منوع</option>
+      <option value="price">للشراء</option>
+      <option value="change">للبدل</option>
+      <option value="free">مجاناً</option>
+    </select>
               </div>
             </form>
 

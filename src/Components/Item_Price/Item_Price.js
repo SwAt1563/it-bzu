@@ -1,20 +1,29 @@
 import "./Item_Price.css";
 import { useState } from "react";
+import {FaTimes, FaRegTimesCircle} from "react-icons/fa"
 
 const Item_Price = (props) => {
-  const [free, setFree] = useState(true);
+  const [itemStatus, setItemStatus] = useState("");
 
   const handlePriceChange = (e) => {
-    const value = true ? e.target.value === "yes" : false;
+    const value =  e.target.value;
     
-    setFree(value);
+    setItemStatus(value);
+  };
+
+  const handleClose = (e) => {
+    
+    const element = document.getElementById(`item_${props.index}`);
+    element.remove();
+
   };
 
   return (
     <>
 
 
-      <div className="item p-5 ">
+      <div className="item p-5" id={`item_${props.index}`}>
+        <FaTimes className="close" onClick={handleClose}/>
       <h2 className="text-center mt-3">الغرض "{props.index}"</h2>
         <div className="form-group ">
           <label for={`course_id_${props.index}`}>رمز المساق</label>
@@ -31,10 +40,10 @@ const Item_Price = (props) => {
           <input
             className="form-check-input me-3"
             type="radio"
-            name={`free_${props.index}`}
+            name={`itemStatus_${props.index}`}
             id={`yes_${props.index}`}
             value="yes"
-            checked={free === true}
+          
             onChange={handlePriceChange}
           />
           <label className="form-check-label ms-3 " for={`yes_${props.index}`}>
@@ -44,17 +53,31 @@ const Item_Price = (props) => {
           <input
             className="form-check-input "
             type="radio"
-            name={`free_${props.index}`}
+            name={`itemStatus_${props.index}`}
             id={`no_${props.index}`}
             value="no"
-            checked={free === false}
+            
             onChange={handlePriceChange}
           />
-          <label className="form-check-label" for={`no_${props.index}`}>
+          <label className="form-check-label ms-3" for={`no_${props.index}`}>
             لا
           </label>
 
-          {!free && (
+          <input
+            className="form-check-input "
+            type="radio"
+            name={`itemStatus_${props.index}`}
+            id={`change_${props.index}`}
+            value="change"
+            
+            onChange={handlePriceChange}
+          />
+          <label className="form-check-label" for={`change_${props.index}`}>
+           للتبديل
+          </label>
+
+
+          {itemStatus === "no" && (
             <div className="">
               <label for={`price_${props.index}`}>ما سعره</label>
               <input
