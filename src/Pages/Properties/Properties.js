@@ -15,7 +15,6 @@ const Properties = (props) => {
   const [search_empty, setSearch_empty] = useState("");
   const [selectedOption, setSelectedOption] = useState("");
 
-
   const handlePlusItem = () => {
     setComponents([...components, <Item_Price index={nummber_of_items + 1} />]);
     setNumberOfItems(nummber_of_items + 1);
@@ -28,8 +27,7 @@ const Properties = (props) => {
   const handle_insert = (event) => {
     event.preventDefault();
 
-    if(nummber_of_items === 0)
-      return;
+    if (nummber_of_items === 0) return;
     const target = event.target;
 
     const name = target.name.value;
@@ -43,6 +41,8 @@ const Properties = (props) => {
         ? target[`course_id_${index}`].value.toLowerCase()
         : "";
 
+      if (course_id === "") continue;
+
       const desc = target.hasOwnProperty(`desc_${index}`)
         ? target[`desc_${index}`].value.toLowerCase()
         : "";
@@ -55,7 +55,7 @@ const Properties = (props) => {
         price = target.hasOwnProperty(`price_${index}`)
           ? target[`price_${index}`].value.toLowerCase()
           : "0";
-      }else if (itemStatus === "change"){
+      } else if (itemStatus === "change") {
         price = "-1";
       }
 
@@ -117,27 +117,25 @@ const Properties = (props) => {
         console.error(error);
       });
 
-      if(selectedOption === "price"){
-        arr = arr?.filter((element) => element.price !== "-1" && element.price !== "0")
+    if (selectedOption === "price") {
+      arr = arr?.filter(
+        (element) => element.price !== "-1" && element.price !== "0"
+      );
+    } else if (selectedOption === "change") {
+      arr = arr?.filter((element) => element.price === "-1");
+    } else if (selectedOption === "free") {
+      arr = arr?.filter((element) => element.price === "0");
+    }
 
-      }else if(selectedOption === "change"){
-        arr = arr?.filter((element) => element.price === "-1");
-
-      }else if(selectedOption === "free"){
-        arr = arr?.filter((element) => element.price === "0");
-      }
-
-    
-      if(arr.length === 0){
-        console.log(arr.length)
-        setSearch_empty("لا يوجد أغراض متوفرة لهذا المساق");
-        setSearch_data(null);
-        return;
-      }
+    if (arr.length === 0) {
+      console.log(arr.length);
+      setSearch_empty("لا يوجد أغراض متوفرة لهذا المساق");
+      setSearch_data(null);
+      return;
+    }
 
     setSearch_data(
       arr?.map((property, index) => {
-        
         return (
           <Property
             index={index}
@@ -228,14 +226,19 @@ const Properties = (props) => {
                   required
                 />
 
-             
-
-<select id="search_type" value={selectedOption} onChange={handleOptionChange} class="form-control rounded-0 w-25 text-center" aria-label="Search" aria-describedby="search-addon">
-      <option value="all">منوع</option>
-      <option value="price">للشراء</option>
-      <option value="change">للبدل</option>
-      <option value="free">مجاناً</option>
-    </select>
+                <select
+                  id="search_type"
+                  value={selectedOption}
+                  onChange={handleOptionChange}
+                  class="form-control rounded-0 w-25 text-center"
+                  aria-label="Search"
+                  aria-describedby="search-addon"
+                >
+                  <option value="all">منوع</option>
+                  <option value="price">للشراء</option>
+                  <option value="change">للبدل</option>
+                  <option value="free">مجاناً</option>
+                </select>
               </div>
             </form>
 
